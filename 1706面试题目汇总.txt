@@ -73,6 +73,8 @@ function cycleDetector(obj) {
 
 
 
+
+
 //胡峰同学
 2017.12.1
 深圳市粤振鑫实业有限公司
@@ -82,3 +84,43 @@ function cycleDetector(obj) {
 4.cookie和Web Storage的区别
 5.你的职业规划
 6.找工作找了多久，有收到offer吗？
+
+
+
+//马术滨
+深圳美云集网络科技有限责任公司
+1.css部分
+1. 盒子模型 
+2.如何居中一个div
+3.自定义属性如何定义样式
+4下面这段代码页面会显示什么:.
+<span style="display:inline-block">test</span>
+<div style="display:none">hello</div>
+5.浏览器的内核
+ 2.JS部分
+ 	1.简述闭包~
+	2.如何阻止事件的冒泡
+	3.localstorage 和sessionStorage 的区别
+	4.如何跨域
+	5.异步和同步的区别
+	6.eval是做什么的
+	7.定义一个对象(简单定义)
+	8.如何判断一个对象是否属于一个类
+	9.简述一下this
+	10.Jquery里封装好了几个显示隐藏的
+	11.Jquery里封装好了那个数组合并
+	12.谈下你对bootstrap 里的栅格布局
+
+
+
+北京腾信软创科技股份有限公司	
+
+1.如何用一个div实现十字图
+2.Vue中v-for 中的key表示什么
+3.数组最大值的实现方法
+4.如何实现数组中奇偶两边
+5.Jsonp为啥不能post 请求
+6.Vue中父组件传递给子组件用props,子组件如何实现双向数据绑定,改变props中的值,父组件中也改变
+7.v-if跟v-show 的区别
+8.深拷贝问题
+9.405是什么?

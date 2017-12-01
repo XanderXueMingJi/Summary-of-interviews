@@ -1,3 +1,79 @@
+
+
+//千祥同学
+面试总结
+2017.11.28  深圳前海中金科技公司
+  技术面试
+  1 你项目里面你觉得做的最好的是哪个？为什么？
+  2 既然你用angular，那你说说angualr跟angularjs的区别，ts是什么？
+  3 React里面有哪些API，状态如何改变？
+  4 你有写过angular里面的指令吗？
+5 ajax的底层实现原理
+  人事：
+  	1 你为什么离职？
+ 	2 你的职业规划？
+  	3 你来之前有了解我们公司吗？
+
+2017.11.29 腾讯计算机系统有限公司
+  笔试题目：
+	1  编写一个函数，实现统计一篇英文文档中出现次数最多的单词和出现次数 
+2  实现一个简单的观察者模式 
+3  简述Csrf 的攻击原理和防范手段
+4  实现超出整数存储范围的两个大正整数相加 function add(a,b) 注意 参数以及函数的返回值都是字符串
+5  动态创建一个ul节点，并且绑定1000个li子节点，显示在body的第一个子节点前
+6  在页面里通过js如何判断页面是否属于腾讯(qq.com 包括子域名)
+7  请用原生js实现一个setMask（dom，opacity）函数  给页面指定的任意一个元素添加一个透明遮罩（透明度可选，默认0.2）使这个区域点击无效  要求兼容IE9+及各大主流浏览器
+8  创建一个person类，其包含共有属性name和私有属性age以及公有方法setAge。创建一个Teacher类，让它继承person类。并包含私有属性stuCount 以及私有方法setStuCount
+	
+2017.11.30上午 深圳小水滴网络科技公司
+面试题：
+	1 如何获取页面元素
+  2 css里面有哪些选择器
+  3 call bind apply之间有什么区别
+	4 jquery如何封装一个插件
+  5 常见的跨域方式有哪些，如何处理callback太多的问题
+	6 MVVM跟MVC有什么区别
+  7 http2.0 比http1.1的优势和特性
+
+2017.11.30下午 深圳启元信息服务
+笔试题目：
+1 从输入URL到浏览器显示页面发生了什么
+2 如何水平垂直居中一个元素
+<div id="parent">
+<div id="child"></div>
+</div>
+3 如何清除浮动
+	4 优化代码（代码是一段回调函数嵌套，解题思路是使用promise）
+	5 用 js 实现千位分隔符
+	  1 传统方式
+      2 toLocaleString()
+      3 正则表达式实现
+	6 JSON.stringify 的功能是，将一个 JavaScript 字面量对象转化为一个 JSON 格式的字符串。例如
+const obj = {a:1, b:2}
+JSON.stringify(obj) // => '{"a":1,"b":2}'
+当要转化的对象有“环”存在时（子节点属性赋值了父节点的引用），为了避免死循环，JSON.stringify 会抛出异常，例如：
+const obj = {
+  foo: {
+    name: 'foo',
+    bar: {
+      name: 'bar'
+      baz: {
+        name: 'baz',
+        aChild: null  //待会让它指向obj.foo
+      }
+    }
+  }
+}
+obj.foo.bar.baz.aChild = obj.foo // foo->bar->baz->aChild->foo 形成环
+JSON.stringify(obj) // => TypeError: Converting circular structure to JSON
+请完善以下“环”检查器函数 cycleDetector，当入参对象中有环时返回 true，否则返回 false。
+function cycleDetector(obj) {   
+  // 请添加代码
+}
+
+
+
+//胡峰同学
 2017.12.1
 深圳市粤振鑫实业有限公司
 1.简述闭包

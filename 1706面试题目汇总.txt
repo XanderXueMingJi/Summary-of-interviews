@@ -1,6 +1,4 @@
-﻿
-
-//千祥同学
+﻿//千祥同学
 面试总结
 2017.11.28  深圳前海中金科技公司
   技术面试
@@ -70,6 +68,21 @@ JSON.stringify(obj) // => TypeError: Converting circular structure to JSON
 function cycleDetector(obj) {   
   // 请添加代码
 }
+
+2017.12.4 上午  深圳极联开发
+		面试题：
+			记不清楚了  哈哈哈  公司主要是做APP开发的，要去面试的话就准备好APP开发这一部分
+2017.12.4 下午  深圳万和文化传播
+	笔试题
+		1  你所熟悉的js库css库以及框架
+		2  清除浮动有哪些方式且都适用于哪些情况
+		3  position四种区别  inline 和inline-block的区别，display和visibility的区别 
+		4  谈谈你对get和post的理解自己他们各自适用的场景，并写出json和xml的结构
+		5  请写出一个获取查询字符串并将其解析为json对象的函数
+		6  具体问题我忘了  考察ajax发请求处理响应数据拼接为字符串显示在
+		7  有一个函数rand9()返回0-9之间的随机数  有一个函数rand10()继承自rand9() 
+				返回0-10之间的随机数  请实现这两个函数   就是考察js里面的继承的   
+
 
 
 

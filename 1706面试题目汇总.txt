@@ -174,4 +174,16 @@ function cycleDetector(obj) {
 9.405是什么?
 
 
+前海初道科技（深圳）有限公司
+1.Vue如何实现父子组件跟兄弟组件间的通信
+	tips:兄弟组件不要回答说通过创建一个新的实例
+2.ES6有什么新特性
+	ES6中的promise 中的有几个参数,具体怎么样
+	用promise 实现传入一个5,然后经过5s,然后弹出这个值
+3.了解过Vuex吗?
+4.Vue的钩子函数你知道有哪些?
+5.Vue的beforecreate 跟create的区别
+
+
 //杜勋
+
